@@ -1,0 +1,113 @@
+* {
+margin: 0;
+box-sizing: 0;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20;
+    background-color: #c9002f;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  padding: 1px;
+}
+
+
+p {
+  margin: 30px;
+  font-family:  'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #c9002f;
+}
+
+
+
+
+  main{
+    width: 800px;
+    position: relative;
+    height: 42vh;
+    margin: 40px 0px 0px 300px;
+  }
+
+
+  
+  aside {
+   
+    width: 250px;
+    height: 250px;
+    border: 1px solid #c9002f;
+    text-align: center;
+    margin: 20px;
+  }
+
+    button {
+    background-color: white;
+    border: 1px solid white;
+
+  }
+
+  .prato1{
+    font-family: Calibri;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+  }
+
+
+
+.prato1 img{
+  
+  width: 190px;
+  height: 120px;
+  margin-top: 20px;
+
+}
+
+.prato2 {
+  font-family: Calibri;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+.prato2 img {
+  width: 190px;
+  height: 130px;
+  margin-top: 20px;
+
+}
+
+.prato3 {
+  font-family: Calibri;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+.prato3 img {
+  width: 190px;
+  height: 130px;
+  margin-top: 10px;
+
+}
+
+
+footer {
+  background:  #870a28;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 05px;
+}

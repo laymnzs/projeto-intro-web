@@ -1,4 +1,4 @@
-/*1. SEMANA 2.
+//1. SEMANA 2.
     
  const objeto1 = {
     prato1: "macarrão com frango",
