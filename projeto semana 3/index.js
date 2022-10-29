@@ -4,46 +4,46 @@ const objeto1 = {
     prato: "macarrão com frango",
     valor: 20,
     disponibilidade: true,
-    bebida: ["cerveja", "água", "gin"]
+    bebida1: ["cerveja", "água", "gin"]
   }
 
   const objeto2 = {
     prato: "frango com arroz",
     valor: 15,
     disponibilidade: true,
-    bebida: ["suco de caju", "suco de manga", "suco de maracujá"],
+    bebida2: ["suco de caju", "suco de manga", "suco de maracujá"],
  }
 
  const objeto3 = {
   prato: "feijoada",
   valor: 30,
   disponibilidade: false,
-  bebida: ["vinho", "champagne", "caipirinha"]
+  bebida3: ["vinho", "champagne", "caipirinha"]
 }
 
 
 // SEMANA 3 -Exercicio 1
 
-// let bebida1String= ""
-//   for(let i=0; i<objeto1.bebida1.length; i++){
-//     bebida1String += objeto1.bebida1[i] + ","
-//   }
+let bebida1String= ""
+  for(let i=0; i<objeto1.bebida1.length; i++){
+    bebida1String += objeto1.bebida1[i] + ","
+  }
 
 
-//   let bebida2String= ""
-//   for(let i=0; i<objeto2.bebida2.length; i++){
-//     bebida2String += objeto2.bebida2[i] + ","
-//   }
+  let bebida2String= ""
+  for(let i=0; i<objeto2.bebida2.length; i++){
+    bebida2String += objeto2.bebida2[i] + ","
+  }
 
 
-//   let bebida3String= ""
-//   for(let i=0; i<objeto3.bebida3.length; i++){
-//     bebida3String += objeto3.bebida3[i] + ","
-//   }
+  let bebida3String= ""
+  for(let i=0; i<objeto3.bebida3.length; i++){
+    bebida3String += objeto3.bebida3[i] + ","
+  }
 
-  // console.log(bebida1String)
-  // console.log(bebida2String)
-  // console.log(bebida3String)
+  console.log(bebida1String)
+  console.log(bebida2String)
+  console.log(bebida3String)
 
 
 
@@ -85,7 +85,7 @@ function parametro(devolveString){
     console.log(`${i}: ${devolveString[i]}`)
   }
   console.log("----------------------");
-}
+} 
 
 parametro(objeto1)
 parametro(objeto2)
